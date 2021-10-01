@@ -1,0 +1,886 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	/* font-size: 100%; */
+	/* font: inherit; */
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /*************************** first section  *****************/
+
+
+
+
+.tray
+{
+
+float: right;
+height:50px;
+width: 100px;
+/* background-color: green; */
+margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /***************** end of first section **************** */
+.menubar li
+{
+    float: left;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.max li
+{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+.abc
+{
+    color: black !important;
+  font-size: 17px;
+  font-weight: bold;
+
+}
+.abc:hover
+{
+   color: red !important;
+
+   
+}
+/* buuton green waala  */
+.small
+{
+    height: 53px;
+    width: 134px;
+    margin-left: 10px;
+    background-color: #00938D;
+}
+/* khatm */
+
+
+.l
+{
+    margin-left: 64px;
+    
+    margin-top: 22px;
+    color: black;
+    
+}
+.png
+{
+    margin-top: 35px;
+    margin-left: 200px;
+}
+/* dropdown */
+.dropdown 
+{
+   
+   /* height: 600px; */
+   width: 200px;
+   background-color: rgb(240, 240, 232);
+   display: none;
+   position: absolute;
+   transition: all .2s ease-in-out;
+   
+}
+.dropdown li a
+{
+    color: black !important;
+  
+    font-size: 17px;
+     /* border: 2px black solid; */
+     transition: all  .3s ease-in-out;
+    
+}
+.dropdown li a:hover
+{
+  margin-left: 10px;
+  color: rgb(253, 21, 21) !important;
+  text-decoration: none;
+}
+.ran:hover .dropdown 
+{
+    display: block;
+    z-index: 2;
+    margin-left: 0px;
+
+   
+}
+.pinku
+{
+    /* height: 600px; */
+    /* width: 463px; */
+    max-width: 100%;
+    float: right;
+    margin-right: 270px;
+    margin-top: 207px;
+}
+.tie
+{
+    position: relative;
+}
+.coding
+{
+    position: absolute;
+    right: 250px;
+    top: 300px;
+    background-color: hsl(24, 98%, 49%);
+}
+
+
+
+
+
+
+
+
+
+
+.gamess
+{
+    position: absolute;
+right: 597px;
+top: 290px;
+background-color: white;
+height:80px;
+width: 150px;
+border-radius: 10px;
+}
+.gamess h4
+{
+    margin-left: 1px;
+    font-size: 25px;
+    font-weight: 400  bold;
+}
+.gamess img
+{
+    max-width: 100%;
+    margin-top: 7px;
+    margin-left: 15px;
+
+    
+}
+.pencil
+{
+    position: absolute;
+    right: 790px;
+    top: 367px;
+    height: 51px;
+    width: 70px;
+    background-color: grey;
+    border-radius: 5px;
+}
+.pencil img
+
+{
+ margin-left: 13px;
+ font-size: 25px;
+ margin-top: 10px;
+}
+
+
+
+
+.content h1
+{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 365px;
+    margin-left: 150px;
+}
+
+.content p
+
+{
+    margin-left: 150px !important;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 100;
+}
+.small1
+{
+    height: 53px;
+    width: 168px;
+    margin-left: 149px;
+    margin-top: 20px;
+    background-color: #00938D;
+}
+.slice
+{
+    background-color: whitesmoke;
+}
+.ellispse
+{
+    position: absolute;
+    right: 0px;
+    top: 120px;
+    max-width: 100%;
+}
+.thing
+{
+    background-color: rgb(231, 224, 211);
+    position: fixed;
+   z-index: 223;
+}
+.circle4
+{
+    position: absolute;
+    right: 807px;
+    top: 242px;
+animation: all linear 5.2s;
+
+animation-iteration-count: infinite;
+
+animation-name: x1;
+}
+@keyframes x1
+{
+   25%{margin-bottom: 200px;}
+   25%{margin-right: 200px;}
+   50%{margin-top: 300px;}
+   100%{margin-right: 200px;}
+
+   
+
+  
+     
+     
+  }
+
+.circle3
+{
+    position: absolute;
+    right: 264px;
+    top: 116px;
+}
+.circle1
+{
+    position: absolute;
+    right: 193px;
+    top: 309px;
+}
+.circle
+{
+    position: absolute;
+    right: 215px;
+    top: 584px;
+}
+
+.circle2
+{
+    position: absolute;
+    right: 784px;
+    top: 588px;
+}
+/* .box1 */
+/* { */
+    /* height: 600px; */
+    /* width: 300px; */
+    /* background-color: red; */
+/* } */
+
+
+
+
+
+
+
+ 
+.box{
+   height: 70px;
+  width: 83px;
+  margin-left: 94px;
+  margin-top: 20px;
+  
+  background-color: rgb(248, 127, 28);
+  font-size: 40px;
+  color: white;
+
+  border-radius: 20px;
+}
+.raj
+{
+    height: 300px !important;
+    border-radius: 20px;
+}
+.papu
+{
+    margin-top: 232px;
+    position: relative;
+
+}
+.too
+{
+    width: 173px;
+    height: 115px;
+    background-color: whitesmoke;
+    
+    position: absolute;
+    top: 336px;
+    border-radius: 10px;
+}
+.susu
+{
+    margin-left: 13px;
+    color: gold;
+}
+.jai
+{
+    margin-left: 35px;
+    margin-top: 7px;
+}
+    .too1
+    {
+         width: 200px;
+         height: 115px;
+        background-color: whitesmoke;
+         border-radius: 15px;
+         position: absolute;
+         top: 396px;
+         opacity: 0.7;
+         left: 425px;
+
+    }
+    .di
+{
+    margin-top: 5px;
+    margin-left:16px;
+    color:springgreen;
+}
+.music
+{
+    margin-top: 357px;
+    margin-left: 95px;
+    font-weight: bold;
+}
+ .note
+ {
+     margin-left: 114px;
+     margin-top: 11px;
+     line-height: 27px;
+ }
+
+.small22
+{
+    height: 53px;
+    width: 162px;
+    margin-left: 115px;
+    margin-top: 20px;
+    background-color: #00938D;
+}
+
+.copy
+{
+    margin: 76px 0px 0px 4px;
+    font-weight: bolder;
+}
+.carbon
+{
+    height: 90px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 216px;
+    margin-bottom: 40px;
+    background:whitesmoke;
+}
+.home
+{
+    float: left;
+    margin: 30px 0px 0px 23px;
+    font-size: 22px;
+    
+}
+.carbon img
+{
+    float: left;
+    margin: 26px 0px 0px 36px;
+}
+.spl
+{
+    
+    /* opacity: 0.3; */
+            background-color: sandybrown;
+            border-radius: 3px;
+
+}
+.spl2
+{
+    color: orange;
+    font-size: 20px !important;
+    font-weight: bold;
+    
+}
+.daku
+
+{
+    font: 20px;
+    margin-top: 10px;
+}
+.ra
+{
+    margin-top: 20px;
+    float: left;
+}
+.line
+{
+    position: absolute;
+    top: 246px;
+    right: 40px;
+  color: pink !important;
+  opacity: 0.1;
+
+    
+}
+/* star  */
+.ra1
+
+{
+    margin-top: 10px;
+    margin-left: 6px;
+    color: gold;
+}
+.red2
+{
+    margin-top: 5px;
+}
+.force
+{
+    margin-top: 20px;
+    float: left;
+    margin-left: 2px;
+}
+.distance
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: green;
+    float: left;
+    margin-left: 86px;
+    margin-top: 7px;
+}
+.rome
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: black;
+    font-size: 21px;
+}
+
+.big1
+{
+    background-color: #00938D;
+    height: 53px;
+    width: 167px;
+    margin: 30px 0px 0px 460px;
+
+   
+}
+.vera1
+{
+    height: 200px;
+    width: 152px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    float: left;
+    margin: 30px 0px 0px 20px;
+    transition-duration: 2s;
+    transition-delay: 0.3s;
+    
+}
+.vera1:hover
+{
+ background-color: tomato;
+}
+.ram:hover
+{
+    border: 1px blue solid;
+}
+.ram
+{
+    transition-duration: 6s;
+    transition-delay: 0.2s;
+}
+.large1
+
+{
+    height: 56px;
+    width: 172px;
+    background-color: #00938D;
+    margin-top: 34px;
+    margin-left: 40px;
+}
+.moti
+{
+    margin-top: 100px;
+}
+.dev
+{
+    margin-top: 100px;
+}
+.chintu
+{
+    margin-top: 8rem;
+}
+
+.bhi
+{
+    margin-top: 8rem !important;
+}
+
+.had
+{
+    margin-top: 8rem;
+}
+.had1
+{
+    margin-top: 2rem;
+    line-height: 28px;
+}
+.mysore
+{
+    margin-top: 1rem;
+}
+.mysore1
+{
+    font-weight: lighter;
+    font-size: 15px;
+    margin-left: 2px;
+}
+.ramesh {
+    background-color: red;
+    margin-top: 300px;
+}
+.hola
+{
+  margin-top: 7rem;
+  margin-left: 19rem;
+  font-weight: bolder;
+ 
+}
+.hola1
+
+{
+    margin-left: 23rem;
+    margin-top: 10px;
+}
+.horse
+{
+    height: 58px;
+    width: 600px;
+    margin-left: 136px;
+    margin-top: 60px;
+    background-color:whitesmoke;
+    border-radius: 6px;
+    border: 2px whitesmoke solid !important;
+    position: relative;
+    
+}
+.hat
+{
+    height: 53px;
+    width: 162px;
+    margin-left: 742px;
+    border-radius: 15px;
+    margin-top: -79px;
+    background-color: #00938D;
+  
+  
+   
+    
+
+}
+/* .later */
+/* { */
+     /* height: 58px; */
+     /* width: 700px; */
+     /* margin-left: 191px; */
+     /* margin-top: 25px; */
+     /* background-color:whitesmoke; */
+     /* border-radius: 6px; */
+     /* border: 2px whitesmoke solid !important; */
+/*   */
+/* } */
+.kl
+
+{
+    height: 30px;
+    width: 50px;
+    background-color: #00938D;
+  
+}
+.fog
+{
+   
+    margin-top: 86px;
+    background-color:whitesmoke;
+    border:1px solid #E8D6D6
+    
+}
+
+
+
+.bella li
+{
+    margin-top: 20px;
+    margin-left: 5px;
+    
+}
+.bella li a
+{
+    color: black !important;
+}
+.lens
+{
+    float: left;
+    background-color: wheat;
+    height: 28px;
+    width: 28px;
+    margin: left 4px;
+    margin-top: 24px;
+    border-radius: 28px;
+}
+.lens1
+{
+    float: left;
+    background-color: wheat;
+    height: 28px;
+    width: 28px;
+    margin-left: 13px;
+    margin-top: 24px;
+    border-radius: 28px;
+}
+.lens2
+{
+    float: left;
+    background-color: wheat;
+    height: 28px;
+    width: 28px;
+    margin-left: 13px;
+    margin-top: 24px;
+    border-radius: 28px;
+}
+.lens3
+{
+    float: left;
+    background-color: wheat;
+    height: 28px;
+    width: 28px;
+    margin-left: 13px;
+    margin-top: 24px;
+    border-radius: 28px;
+}
+.rajeev
+{
+    margin-top: 5px;
+    margin-left: 8px;
+}
+.set 
+{
+    color: black;
+    margin-top: 30px;
+}
+.set li 
+{
+    margin-top: 16px;
+}
+.set li a
+{
+    color: black;
+    
+}
+.rahu1
+{
+    margin-top: 10px;
+    height: 40px;
+    width: 221px;
+    background-color:whitesmoke;
+}
+.rahul
+{
+    height: 80px;
+    background-color: whitesmoke;
+    width: 221px;
+    margin-top: 10px;
+}
+.lastone
+{
+    height: 40px;
+    width: 100px;
+    margin-top: 10px;
+    background-color: #00938D;
+    overflow: hidden;
+
+}
+.nt
+{
+    margin-bottom: 20px;
+}
+/**************************************** couuses page *************************************************** */
+.nela
+{
+    height: 400px;
+    width: 1543px;
+    background-color: black;
+    background-image: url(https://santhemes.com/tidytheme/aducat/images/header.jpg);
+    margin-top: 0px;
+   
+}
+
+.nela1 h1 
+
+{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 168px;
+
+}
+.nela1 p
+{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+
+}
+.army1
+{
+    padding-top: 70px;
+}
+.thing1
+{
+    background-color: rgb(231, 224, 211);
+    position: fixed;
+   z-index: 223;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
